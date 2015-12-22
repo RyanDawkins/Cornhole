@@ -24,6 +24,9 @@
         <activity android:name=".ui.rules.RulesActivity" android:label="Rules" android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
+        <activity android:name=".ui.winner.WinnerActivity" android:label="Winner!" android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />

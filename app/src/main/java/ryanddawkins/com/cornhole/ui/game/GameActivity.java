@@ -1,5 +1,6 @@
 package ryanddawkins.com.cornhole.ui.game;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.util.Log;
@@ -22,6 +23,7 @@ import ryanddawkins.com.cornhole.base.BaseActivity;
 import ryanddawkins.com.cornhole.data.Game;
 import ryanddawkins.com.cornhole.data.NewGame;
 import ryanddawkins.com.cornhole.data.Round;
+import ryanddawkins.com.cornhole.ui.winner.WinnerActivity;
 
 /**
  * Created by ryan on 12/21/15.
@@ -101,6 +103,18 @@ public class GameActivity extends BaseActivity {
     public void updateScore() {
         this.team1TextView.setText(""+this.game.getTeam1Score());
         this.team2TextView.setText(""+this.game.getTeam2Score());
+
+        if(this.game.didTeam1Win()) {
+            Intent intent = new Intent(this, WinnerActivity.class);
+            intent.putExtra("team", 1);
+            startActivity(intent);
+        }
+        if(this.game.didTeam2Win()) {
+            Intent intent = new Intent(this, WinnerActivity.class);
+            intent.putExtra("team", 2);
+            startActivity(intent);
+        }
+
         this.updateChart();
     }
 

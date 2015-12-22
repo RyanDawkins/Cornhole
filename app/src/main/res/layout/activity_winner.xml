@@ -25,6 +25,7 @@
         </android.support.design.widget.AppBarLayout>
 
         <TextView
+            android:id="@+id/message"
             android:text="Team 1 Wins!!"
             android:textSize="40sp"
             android:gravity="center"
@@ -40,7 +41,7 @@
             android:layout_height="0dp"/>
 
         <ImageView
-            android:src="@drawable/ic_trophy"
+            android:src="@drawable/trophy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
@@ -50,6 +51,7 @@
             android:layout_height="0dp"/>
 
         <Button
+            android:id="@+id/newGame"
             android:text="NEW GAME"
             android:textColor="#eeeeee"
             android:background="@drawable/btn_primary"
