@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Corn Hole Score Keeper</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="rules">
+        <item>Traditional 21:  The game shall be played to the pre-determined number of twenty-one (21) points.  The first player/team to reach (or exceed) that amount at the conclusion of a frame is the winner.</item>
+        <item>Woody: Refers to any cornhole bag that has been pitched and remains on the cornhole board playing surface at the conclusion of the frame. Each woody is 1pt.</item>
+        <item>Cornhole – Refers to any cornhole bag that has been pitched and passes through the cornhole board hole at anytime within the frame. Each cornhole is 3pts.</item>
+        <item>Cancellation Scoring:  The approved method of scoring for the sport of cornhole is “cancellation” scoring.  In cancellation scoring, the points of one player cancel out the points of their opponent.  Using this method, only one player/team can score in each frame.</item>
+        <item>Example: Red achieves one (1) woody and two (2) cornholes. Blue achieves two (2) woodies and zero (0) cornholes. 7 points – 2 points = Red scores 5 points for that frame.</item>
+        <item>Foul Bags – Refers to any cornhole bag that has not been determined as a “woody” or “cornhole”, or was designated a foul bag as the result of rules violation.</item>
+        <item>Designated Foul Bags – Refers to any cornhole bag that has not been determined as a “woody” or “cornhole”, or was designated a foul bag as the result of rules violation. Bags contacting the ground before reaching the playing surface and bags pitched when a player has crossed the foul line are Foul Bags. If a foul bag lands on the playing surface or comes to rest touching the ground and the board, it must be removed immediately.</item>
+    </string-array>
+
+</resources>

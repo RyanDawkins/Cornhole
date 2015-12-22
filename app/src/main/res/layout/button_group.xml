@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:gravity="center"
+  android:orientation="vertical">
+
+  <LinearLayout
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+      android:text="+1"
+      android:textColor="#eeeeee"
+      android:background="@drawable/btn_number_add"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:layout_marginRight="@dimen/activity_horizontal_margin"
+      />
+
+    <Button
+      android:text="+3"
+      android:textColor="#eeeeee"
+      android:background="@drawable/btn_number_add"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      />
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_marginTop="8dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+      android:text="-1"
+      android:textColor="#eeeeee"
+      android:background="@drawable/btn_number_subtract"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:layout_marginRight="@dimen/activity_horizontal_margin"
+      />
+
+    <Button
+      android:text="-3"
+      android:textColor="#eeeeee"
+      android:background="@drawable/btn_number_subtract"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      />
+
+  </LinearLayout>
+
+
+</LinearLayout>
